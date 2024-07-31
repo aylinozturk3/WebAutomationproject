@@ -1,0 +1,16 @@
+{
+    "login": {
+        "login_button": {"path": "//a[contains(@class, 'DVPAWebWidgetsUI_Button__button') and @href='/gp/video/signup/ref=dvm_MLP_tr_Join_1_pm?offer=pm']", "type": "xpath"},
+        "email": {"path": "ap_email", "type": "id"},
+        "continue_button": {"path": "continue", "type": "id"},
+        "password": {"path": "ap_password", "type": "id"},
+        "login_button2": {"path": "signInSubmit", "type": "id"},
+         "accept_cookies": {"path": "//button[@data-testid='consent-accept-all']" ,"type": "xpath"},
+        "verify_element": {"path":"Inb0Rx " ,"type":"class_name" }
+    },
+    "video": {
+        "video_element": {"path": "tHfREs", "type": "class_name"},
+        "play_button_locator": {"path": "//a[@role='button' and contains(@class, '_1jWggM') and contains(@class, '_3_H2aX') and contains(@class, 'fbl-play-btn') and contains(@class, 'fbl-btn')]", "type": "xpath"},
+        "video": {"path": "webPlayerSDKContainer", "type": "class_name"}
+    }
+}

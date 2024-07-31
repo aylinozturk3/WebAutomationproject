@@ -1,0 +1,14 @@
+{
+    "login": {
+        "login_button": {"path": "//a[@aria-label='Open Skype in your browser']", "type": "xpath"},
+        "email": {"path": "//input[@id='i0116']", "type": "xpath"},
+        "continue_button": {"path": "//button[@id='idSIButton9']", "type": "xpath"},
+        "password": {"path": "//input[@id='i0118']", "type": "xpath"},
+        "login_button2": {"path": "//button[@id='idSIButton9']", "type": "xpath"}
+    },
+    "call": {
+        "search_box": {"path": "//div[@aria-label='Kişiler, gruplar, iletiler, web' and @role='button']", "type": "xpath"},
+        "search_box2": {"path": "inputGradient", "type": "class_name"},
+        "call_button": {"path": "//button[@role='button' and @title='Sesli Arama']", "type": "xpath"}
+    }
+}
