@@ -1,0 +1,17 @@
+{
+    "login": {
+        "login_button": {"path": "//a[@href='https://discord.com/login' and @data-track-nav='login']", "type": "xpath"},
+        "email": {"path": "//input[@name='email' and @type='text']", "type": "xpath"},
+        "password": {"path": "//input[@name='password' and @type='password']", "type": "xpath"},
+        "login_button2": {
+            "path": "//button[@type='submit' and contains(@class, 'button_b83a05') and contains(@class, 'colorBrand_dd4f85')]",
+            "type": "xpath"
+        },
+        "verify_element": {"path":"//*[@id='app-mount']/div[2]/div[1]/div[1]/div/div[2]/div/div/div/div/main/section","type": "xpath"}
+    },
+    "call": {
+        "search_bar": {"path": "//*[@id='app-mount']/div[2]/div[1]/div[1]/div/div[2]/div/div/div/div/div[1]/nav/div[1]/button", "type": "xpath"},
+        "search_bar2": {"path":"//*[@id='app-mount']/div[2]/div[1]/div[4]/div[2]/div/div/div/input", "type": "xpath"},
+        "call_button": {"path":  "//*[@id='app-mount']/div[2]/div[1]/div[1]/div/div[2]/div/div/div/div/div[2]/div[2]/section/div/div[2]/div[1]", "type": "xpath"}
+    }
+}
