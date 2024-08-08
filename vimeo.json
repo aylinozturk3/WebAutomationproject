@@ -1,0 +1,14 @@
+{
+    "login": {
+        "login_button": {"path": "//button[contains(@class, 'button') and contains(@class, 'bg-transparent') and .//span[contains(text(), 'Log In')]]", "type": "xpath"},
+        "email": {"path":"//*[@id='email_login']", "type": "xpath"},
+        "password": {"path": "//*[@id='password_login']", "type": "xpath"},
+        "login_button2": {"path": "//*[@id='__next']/div[2]/div/div/div/section/section[5]/form/section[2]/button", "type": "xpath"}
+    },
+    "video":{
+        "watch_button": {"path":"//span[@role='link' and contains(@class, 'css-1w868pc')]","type":"xpath"},
+        "video_locator": {"path": "hero_carousel__slide" , "type":"class_name"},
+        "play_button": {"path": "//a[@class='hero-play-btn']//span[contains(@class, 'hero-play-btn__button')]//svg" ,"type": "xpath"},
+        "select_video": {"path": "//*[@id='home-collection']/div[3]/div/div/div/div/div/div[1]", "type": "xpath"}
+    }
+}
