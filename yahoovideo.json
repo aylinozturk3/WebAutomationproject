@@ -1,0 +1,18 @@
+{
+    "login": {
+        "login_button": {"path": "//div[@id='login-container']", "type": "xpath"},
+        "email": {"path": "//input[@id='login-username']", "type": "xpath"},
+        "continue_button": {"path": "//input[@id='login-signin']", "type": "xpath"},
+        "password": {"path": "//input[@id='login-passwd']", "type": "xpath"},
+         "login_button2": {"path":"//button[@id='login-signin']" ,"type": "xpath"},
+         "verify_element": {"path": "atomic", "type": "id"}
+    },
+    "video": {
+        "more_button":{"path": "button[aria-label='More']" ,"type":"css_selector"},
+        "videos_button": {"path": "a[aria-label='Entertainment: Videos']", "type": "css_selector"},
+        "select_video": {"path": "stream-item", "type": "class_name"},
+        "video_element": {"path":"//*[@id='caas-art-af49943b-ae94-4a3f-9fa6-4f374ea18858']/article/div[2]/div/div/div/div/div/div/div/div[4]/div[1]/div/div/div/div/div[1]/iframe" ,"type":"xpath"},
+        "play_button": {"path": "//*[@id='details_index']/div/article/div[3]/div/div[2]/button[1]", "type": "xpath"},
+        "close_btn": {"path": "//span[contains(text(),'Kapat')]", "type": "xpath"}
+    }
+}
