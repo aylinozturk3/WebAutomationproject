@@ -1,0 +1,30 @@
+{
+    "login": {
+        "login_button": {"path": "account-info-container", "type": "id"},
+        "email": {"path": "//input[@type='email']", "type": "xpath"},
+        "continue_button": {"path": "//button[.//span[text()='Sonraki']]", "type": "xpath"},
+        "password": {"path": "//input[@type='password']", "type": "xpath"},
+        "login_button2": {"path": "//button[.//span[text()='Sonraki']]", "type": "xpath"},
+        "verify_element": {"path":"style-scope","type":"id"}
+
+    },
+    "navigation": {
+        "parent_button": {"path": "parent-button","type": "id"},
+        "child_button": {"path":"kid-button","type": "id"},
+        "next_button": {"path": "//button[@id='next-button']","type": "xpath"},
+        "submit_button": {"path": "//button[@id='submit-button' and @class='style-scope ytk-kids-onboarding-age-gate-renderer']","type": "xpath"},
+        "sign_in_info_next_button":{"path":"//button[@id='sign-in-info-next-button' and @class='style-scope ytk-kids-sign-in-info-renderer']", "type":"xpath" },
+        "account_select": {"path": "profile","type": "class_name"},
+        "bitti_button": {"path":"//*[@id='done-button']","type": "xpath"}
+    },
+    "video": {
+        "video_stream": {"path":"//video[@class='video-stream html5-main-video']", "type": "xpath"},
+        "first_video": {"path": "//*[@id='ytk-compact-video-renderer-Lg50RE4Bq3w']/a/div[1]","type": "xpath"}
+    },
+    "age_gate": {
+    "digit_1": {"path": "//input[@id='onboarding-age-gate-digit-1']","type":"xpath"},
+    "digit_2":{"path": "//input[@id='onboarding-age-gate-digit-2']","type":"xpath"},
+    "digit_3": {"path": "//input[@id='onboarding-age-gate-digit-3']","type":"xpath"},
+    "digit_4": {"path": "//input[@id='onboarding-age-gate-digit-4']","type":"xpath"}
+  }
+}
