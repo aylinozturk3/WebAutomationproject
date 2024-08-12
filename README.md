@@ -1,2 +1,2 @@
 # WebAutomationLastOne
-AmazonVideo,WarnerTurner,Discord,Skype
+AmazonVideo,WarnerTurner,Discord,Skype, YoutubeKids, Vimeo, Teams, YahooVideo
