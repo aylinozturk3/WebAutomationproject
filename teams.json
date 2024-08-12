@@ -1,0 +1,19 @@
+{
+    "login": {
+        "login_button": {"path": "//*[@id='c-shellmenu_custom_button_outline_newtab_signin_bhvr100_right']", "type": "xpath"},
+        "email": {"path": "//*[@id='i0116']", "type": "xpath"},
+        "continue_button": {"path": "//*[@id='idSIButton9']", "type": "xpath"},
+        "password": {"path": "//*[@id='i0118']", "type": "xpath"},
+        "login_button2": {"path": "//*[@id='idSIButton9']", "type": "xpath"},
+        "verify_element": {"path": "//*[@id='app']/div/div/div/div[1]/div/div/div[1]","type": "xpath"},
+        "oturumacikkalsin": {"path":"//*[@id='idBtn_Back']","type":"xpath"},
+        "hesap1": {"path": "//*[@id='tilesHolder']/div[1]/div/div[1]/div/div[2]","type": "xpath"},
+        "add_another_account": {"path":"//*[@id='otherTile']" ,"type":"xpath" }
+
+    },
+    "text": {
+        "pop_up": {"path":"//button[@class='ts-sym ts-btn ts-btn-fluent ts-btn-fluent-primary app-switcher-install-by-policy-dialog--btn' and @data-tid='app-switcher-install-by-policy-primary-btn']" ,"type": "xpath"},
+        "text_area": {"path": "/html/body/div[1]/div/div/div/div[8]/div/div/div[3]/div/div[3]/div/div/div[2]/div[1]/div", "type": "xpath"},
+        "send_button":{"path": "//*[@id='message-pane-layout-a11y']/div[3]/div/div[3]/div/div/div[2]/div[2]/div[2]" ,"type": "xpath"}
+    }
+}
