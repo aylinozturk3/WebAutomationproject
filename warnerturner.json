@@ -1,0 +1,26 @@
+{
+    "login": {
+        "login_button": {"path": "//a[@href='/us/user/login' and contains(@class, 'button') and contains(@class, 'button--dark')]", "type": "xpath"},
+        "email": {"path": "edit-name", "type": "id"},
+        "password": {"path": "edit-pass", "type": "id"},
+        "login_button2": {"path": "//input[@name='op']", "type": "xpath"},
+        "verify_element": {"path": "home-page-wrapper", "type": "id"}
+    },
+    "video": {
+        "menu": {"path": "//ul[@class='menu-navigation']//li[contains(@class, 'link-15')]", "type": "xpath"},
+        "brand_icon_list": {"path": ".m-brands-icon-list__element.col", "type": "css_selector"},
+         "link_elements": {"path":"HERE","type":"link_text"},
+         "video_thumbnail": {"path": "figure.m-item-content-row__thumbnail", "type": "css_selector"},
+         "close_button": {"path": "//*[@id='movie_player']/div[35]/div[2]/div[1]/button","type": "xpath" },
+         "reklam": {"path":"//*[@id='player-overlay-layout:0']/div[1]" ,"type": "xpath"},
+         "skip_add": {"path": "//*[@id='skip-button:3']","type": "xpath"},
+         "video_element": {"path": "//*[@id='player']" ,"type": "xpath"}
+
+    },
+  "statistics": {
+       "meraklisi_icin_istatistikler": {"path": "/html/body/div[2]/div/div/div[6]/div[2]" ,"type": "xpath"},
+       "connection_speed": {"path": "//*[@id='movie_player']/div[25]/div/div[9]/span/span[2]","type": "xpath"},
+       "network_activity": {"path": "//*[@id='movie_player']/div[25]/div/div[10]/span/span[2]","type": "xpath"},
+       "buffer_health": {"path": "//*[@id='movie_player']/div[25]/div/div[11]/span/span[2]","type": "xpath"}
+  }
+}
